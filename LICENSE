@@ -1,13 +1,19 @@
-Copyright (c) Kasty
+Copyright (c) 2026 Kasty Vladimir Usanov
 All rights reserved.
 
-Permission is granted to access and review this source code solely for
-security research, interoperability analysis, and technical audit.
+This repository is published under a source-available audit license.
+Permission is granted only to view and review the source code for:
+- security research,
+- interoperability analysis,
+- technical audit.
 
 You may not:
-- use this code in production systems
-- redistribute modified or unmodified copies as a product
-- remove copyright or attribution notices
+- use this code in production or non-production software systems;
+- copy, modify, adapt, merge, or create derivative products based on this code;
+- redistribute, sublicense, sell, lease, publish, or mirror this code (modified or unmodified);
+- include this code in open-source projects, commercial products, internal enterprise software, SDKs, or libraries;
+- remove copyright, attribution, or legal notices.
 
 No patent, trademark, or commercial rights are granted.
+Any use beyond read-only audit/review requires prior written permission from the rights holder.
 This code is provided "AS IS", without warranty of any kind.

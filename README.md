@@ -30,5 +30,7 @@ Regeneration from the main monorepo:
 
 ## License
 
-Source-available for audit and research only.
+Source-available for audit and research only (rights holder: Kasty Vladimir Usanov).
+Reuse, redistribution, commercial use, and open-source integration are prohibited
+without separate written permission.
 See `LICENSE`.
