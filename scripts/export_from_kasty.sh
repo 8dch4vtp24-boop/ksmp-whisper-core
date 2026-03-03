@@ -11,4 +11,6 @@ cp "$ROOT/Kasty2/Helpers/WhisperOpusCodec.swift" "$OUT_DIR/Sources/"
 cp "$ROOT/Kasty2/Helpers/WhisperH264Decoder.swift" "$OUT_DIR/Sources/"
 cp "$ROOT/Kasty2/Models/KSMPCallModels.swift" "$OUT_DIR/Sources/"
 
-echo "ksmp-whisper-core export refreshed."
+(cd "$OUT_DIR" && find . -type f ! -path './.git/*' ! -name 'MANIFEST.sha256' | LC_ALL=C sort | xargs shasum -a 256 > MANIFEST.sha256)
+
+echo "ksmp-whisper-core export refreshed (MANIFEST.sha256 updated)."
